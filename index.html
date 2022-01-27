@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Round Around Earth</title>
+</head>
+<body>
+    <img id="3dImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGk6y51I5hmB3_69H33Xnz1EYjgfkn6m2LNXfs-7G0MpakbKWhf4DslwSO5htGuGWm36g&usqp=CAU" alt="3d">
+    <img  id="backgroundImage" src="https://media.istockphoto.com/photos/astronaut-on-mars-picture-id108329307?k=20&m=108329307&s=612x612&w=0&h=UYdEs3XFW9ghgFX5KCjnMono_q0FUZwv0Ud7pZJXZPc=" alt="space">
+    <form action="post">
+        <h1 id="heading">Rocket around the Earth</h1>
+       <label for="country" id="departure"> Departure Country</label><br>
+             <select name="countrynanmes" id="dropDown">
+                <option value="name">India</option>
+                <option value="name">Russia</option>
+                <option value="name">Germany</option>
+                <option value="name">NewZealand</option>
+             </select><br>
+           <label for="text">No.Of Space Travellers</label> <br>
+               <input type="textbox" > <br>
+           <label for="mail"> Your email</label> <br>
+            <input  id="email" type="text" value="defaultValue" placeholder="type your mail here..."> <br>
+           <label for="rent"> Do you wanna rent a space suit</label> <br>
+            <input type="radio" id="YesOrNo"> 
+           <label for="rent">Yes,please </label>
+            <input type="radio" name="No,I have my own" id="YesOrNo" value="No,I have my own"> 
+           <label for="rent"> No,I have my own</label> <br>
+           <input  id="submit" type="submit" value=" Take Us To Space">
+    </form>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Round Around Earth</title>
+    <link rel="stylesheet" href="RoundEarth.css">
+</head>
+<body>
+    <div class="container">
+        <div><img id="backgroundImage" src="https://cdn.pixabay.com/photo/2016/05/01/21/20/earth-1365995_960_720.jpg" alt="Image not available"> </div>
+    <br>
+
+    <!--img 2-->
+    <div class="image2">
+        <img id="3dImage" src="https://images.wallpapersden.com/image/wl-astro-man-4k_80740.jpg" alt="Image not available">
+    </div>
+
+    <div class="Rocket">
+
+        <h1 id="heading" >Rocket around the Earth</h1>
+
+    <form action="" id="departure" method="POST">
+        <label class="departure">Departure country</label><br>
+        <select id="dropDown">
+            <option>India</option>
+            <option>India</option>
+            <option>India</option>
+            <option>India</option>
+            <option>India</option>
+            <option>India</option>
+        </select><br>
+
+        <label>No of Space Traveller</label>
+        <input id="noOfTravellers" type="textbox" name="noOfTraveller"><br>
+
+        <label>Your email</label><br>
+        <input id="email" type="email" value="IloveSpace@gmail.com"><br>
+
+        <label>Do you wanna rent a space suit? </label><br>
+        <input type="radio" id="yesOrNo" name="radio"> Yes,Please
+        <input type="radio" id="yesOrNo" name="radio"> No, I have My own<br>
+
+        <input type="submit" name="submit" id="submit" value="Take US To Space">
+
+    </form>
+</div>
+</div>
+</body>
+</html>
